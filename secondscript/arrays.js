@@ -5,7 +5,7 @@
 // Spread 
 //and good way of joining or concatinating two arrays, join converts the array to string and concat only works on 2 arr at a time 
 // flat
-//opens the array whish is nested and takes also takes depth as parameter 
+//opens the array which is nested and takes also takes depth as parameter 
 /*
 the difference between of and from function of array is that of creates array of given elements in parenthesis regardless of its type whereas from converts 
 any iterable object like string, map, type array etc or array like structures into array. of just combines and not converts but from converts
