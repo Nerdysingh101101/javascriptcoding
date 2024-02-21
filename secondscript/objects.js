@@ -55,13 +55,31 @@ const obj4 = Object.assign(obj2,obj3)
 // console.log(obj4 === obj2);
 
 // console.log(Object.keys(firstobj))
- console.log(firstobj);
+//  console.log(firstobj);
 
  //********************************************* destructuring of objects******************************************************************************* */
  //this is called the destructuring an object wherein we extracts the properties of an object and can use them independently without need to call them
  // through the name of the object using dot operator
 const {name : naam, dob: paidaish, single: akela, age: umar} = firstobj
-console.log(naam);
-console.log(paidaish);
-console.log(akela);
-console.log(umar);
+// console.log(naam);
+// console.log(paidaish);
+// console.log(akela);
+// console.log(umar);
+//*******************************************************destructure of object**************************************** */
+
+let desobject = {
+    name: "samuel",
+    IsHeGay: true,
+    age2: 40
+}
+
+const {name,IsHeGay,age2} = desobject
+console.log(name);
+console.log(IsHeGay);
+console.log(age2);
+
+function printmany(...num1){
+    console.log(num1);
+}
+
+printmany(40,5,7,2,5454,8,234)
